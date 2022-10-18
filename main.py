@@ -34,4 +34,7 @@ def parser():
             for i in preview.split():
                 if i in KEYWORDS:
                     return f'{datetime.text} - {href.text} - {URL}{link}'
-print(parser())            
+
+
+if __name__=='__main__':                    
+    print(parser())            
